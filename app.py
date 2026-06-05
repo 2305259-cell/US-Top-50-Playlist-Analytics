@@ -16,7 +16,7 @@ st.set_page_config(
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent
-FILE_PATH = BASE_DIR / "Atlantic_United_States.csv"
+FILE_PATH = BASE_DIR / "data"/ "Atlantic_United_States.csv"
 
 # ==================================================
 # LOAD DATA
